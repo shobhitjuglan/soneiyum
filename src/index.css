@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Tailwind v4 uses the @theme directive instead of a config file */
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 antialiased selection:bg-blue-500/30;
+}
+
+/* Custom Terminal Scrollbar */
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3); /* Emerald tint */
+  border-radius: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.6);
+}
