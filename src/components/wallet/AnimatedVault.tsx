@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, Key, Eye, EyeOff, Lock } from 'lucide-react';
 import { useWallet } from '../../context/WalletContext';
 import { GlassCard } from '../ui/GlassCard';
-import { createSecureVault } from '../../lib/crypto';
 
 
 

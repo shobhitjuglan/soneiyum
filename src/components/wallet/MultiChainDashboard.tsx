@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { RefreshCw, Copy, CheckCircle2, Coins } from 'lucide-react';
 import { useWallet } from '../../context/WalletContext';
