@@ -19,7 +19,8 @@ export default function MultiChainDashboard() {
   // Balances State
   const [soneiumBalance, setSoneiumBalance] = useState("0.0000");
   const [jpycBalance, setJpycBalance] = useState("0"); // <-- JPYC State added
-  const [solanaBalance, setSolanaBalance] = useState("0.0000");
+  // const [solanaBalance, setSolanaBalance] = useState("0.0000");
+  const solanaBalance = "0.0000";
 
   // --- SONEIUM LOGIC ---
   const handleSyncSoneium = async () => {
